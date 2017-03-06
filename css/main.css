@@ -57,14 +57,10 @@ textarea {
    ========================================================================== */
 
 body {
-  background-color: red
-}
-
-p {
+  background-color: red;
   font-family: helvetica;
   color: white;
 }
-
 
 
 
