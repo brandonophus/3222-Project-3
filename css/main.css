@@ -58,13 +58,25 @@ textarea {
 
 body {
   background-color: red;
-  font-family: helvetica;
 }
 
+.start-section {
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+}
 
+.btn  {
+  background: none;
 
+  padding: 10px 20px;
+  border: 1px solid white;
+  border-radius: 3px;
 
-
+  font-size: 
+}
 
 
 
