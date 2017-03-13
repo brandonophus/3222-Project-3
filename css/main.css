@@ -105,6 +105,20 @@ h2 {
   color: white;
 }
 
+.header {
+  font-family: 'Lobster', cursive;
+  text-align: center;
+  font-size: 48px;
+  color: white;
+}
+
+.subhead {
+  font-family: 'Lobster', cursive;
+  text-align: center;
+  font-size: 28px;
+  color: white;
+}
+
 .start-section {
   text-align: center;
   padding: 6px;
