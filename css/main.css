@@ -170,15 +170,14 @@ h2 {
   max-width: 500px;
 }
 
-.lager, .paleale, .stout {
+.lagerInfo, .palealeInfo, .stoutInfo {
   background: grey;
   align-items: center;
   padding: 10px 20px;
   border: 1px solid black;
-  border-radius: 5px;
+  border-radius: 3px;
   text-decoration: none;
   font-family: Helvetica, sans-serif;
-  max-width: 500px;
 }
 
 
