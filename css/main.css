@@ -68,6 +68,30 @@ hr {
     margin: 1em 0;
     padding: 0;
 }
+.brand {
+  padding: 6px;
+  margin: 0 auto;
+  display: block;
+  width: 80%;
+  max-width: 300px;
+}
+
+.brand img {
+  width: 100%;
+}
+
+.logo {
+  padding: 2px;
+  margin: 0 auto;
+  display: block;
+  width: 100%;
+  max-width: 1800px;
+  min-width: 300px;
+}
+
+.logo img {
+  width: 100%;
+}
 
 .start-section {
   position: absolute;
