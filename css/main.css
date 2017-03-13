@@ -98,11 +98,6 @@ h2 {
 }
 
 .start-section {
-  position: absolute;
-  top: auto;
-  right: auto;
-  left: auto;
-  bottom: auto;
   text-align: center;
   padding: 6px;
   margin: 0 auto;
