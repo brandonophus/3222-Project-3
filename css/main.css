@@ -118,7 +118,14 @@ h2 {
   font-family: Helvetica, sans-serif;
 }
 
-
+.beers {
+  text-align: center;
+  padding: 6px;
+  margin: 0 auto;
+  display: block;
+  width: 80%;
+  max-width: 500px;
+}
 
 /* ==========================================================================
    Media Queries
