@@ -163,19 +163,18 @@ h2 {
 
 .beerInfo {
   align-items: center;
-  padding: 20px;
+  padding: 10px;
   margin: 0 auto;
   display: block;
   width: 100%;
-  max-width: 500px;
+  max-width: 800px;
 }
 
 .beerGlass {
-  position: fixed;
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: auto;
-  margin-bottom: auto;
+  align-items: center;
+  padding: 10px;
+  margin: 0 auto;
+  display: block;
 }
 
 .lagerInfo, .palealeInfo, .stoutInfo {
