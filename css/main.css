@@ -178,10 +178,8 @@ h2 {
 }
 
 .lagerInfo, .palealeInfo, .stoutInfo {
-  position: fixed;
   align-items: center;
   background: grey;
-  align-items: center;
   padding: 10px 20px;
   border: 1px solid black;
   border-radius: 3px;
