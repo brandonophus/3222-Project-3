@@ -162,11 +162,10 @@ h2 {
 }
 
 .beerInfo {
-  text-align: center;
   padding: 6px;
   margin: 0 auto;
   display: block;
-  width: 80%;
+  width: 100%;
   max-width: 500px;
 }
 
