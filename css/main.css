@@ -128,7 +128,7 @@ h2 {
 }
 
 .btnLager, .btnPaleAle, .btnStout {
-  background: none;
+  background: white;
   align-items: center;
   padding: 10px 20px;
   border: 1px solid white;
