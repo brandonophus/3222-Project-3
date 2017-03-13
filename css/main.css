@@ -99,10 +99,10 @@ h2 {
 
 .start-section {
   position: absolute;
-  top: 1000px;
-  right: 1000px;
-  left: 1000px;
-  bottom: 1000px;
+  top: auto;
+  right: auto;
+  left: auto;
+  bottom: auto;
 }
 
 .btn  {
