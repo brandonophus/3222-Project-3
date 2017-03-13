@@ -72,6 +72,14 @@ body {
   width: 100%;
 }
 
+.brandhome {
+  padding: 6px;
+  margin: 0 auto;
+  display: block;
+  width: 80%;
+  max-width: 50px;
+}
+
 .logo {
   padding: 2px;
   margin: 0 auto;
