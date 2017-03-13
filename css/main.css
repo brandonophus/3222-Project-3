@@ -104,6 +104,11 @@ h2 {
   left: auto;
   bottom: auto;
   text-align: center;
+  padding: 6px;
+  margin: 0 auto;
+  display: block;
+  width: 80%;
+  max-width: 300px;
 }
 
 .btn  {
