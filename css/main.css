@@ -127,6 +127,18 @@ h2 {
   max-width: 500px;
 }
 
+.btnLager .btnPaleAle .btnStout {
+  background: none;
+  align-items: center;
+  padding: 10px 20px;
+  border: 1px solid white;
+  border-radius: 3px;
+  text-decoration: none;
+  font-family: Helvetica, sans-serif;
+}
+
+
+
 /* ==========================================================================
    Media Queries
    ========================================================================== */
