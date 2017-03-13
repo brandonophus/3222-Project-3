@@ -68,13 +68,19 @@ body {
   bottom: 0;
 }
 
+h1 {
+  font-family: 'Lobster', cursive;
+  text-align: center;
+  color: white;
+}
+
 .btn  {
   background: none;
 
   padding: 10px 20px;
   border: 1px solid white;
   border-radius: 3px;
-
+  text-decoration: none;
   font-size:
 }
 
