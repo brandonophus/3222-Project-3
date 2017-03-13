@@ -170,7 +170,17 @@ h2 {
   max-width: 500px;
 }
 
+.beerGlass {
+  position: fixed;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
 .lagerInfo, .palealeInfo, .stoutInfo {
+  position: fixed;
+  align-items: center;
   background: grey;
   align-items: center;
   padding: 10px 20px;
