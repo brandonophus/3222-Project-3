@@ -72,12 +72,6 @@ body {
   width: 100%;
 }
 
-.brandhome img {
-  padding: 6px;
-  margin: 0 auto;
-  display: block;
-}
-
 .logo {
   padding: 2px;
   margin: 0 auto;
@@ -142,6 +136,12 @@ h2 {
   font-family: Helvetica, sans-serif;
 }
 
+.brandhome img {
+  padding: 6px;
+  margin: 0 auto;
+  display: block;
+}
+
 .beers {
   text-align: center;
   padding: 6px;
@@ -158,33 +158,75 @@ h2 {
   border: 1px solid white;
   border-radius: 3px;
   text-decoration: none;
+  text-decoration-color: #98012e;
   font-family: Helvetica, sans-serif;
 }
 
-.beerInfo {
-  align-items: center;
-  padding: 10px;
+.emptyGlass {
+  float: left;
+  padding-top: 15px;
+  padding-left: 100px;
+  padding-right: 10px;
+  padding-bottom: 50px
   margin: 0 auto;
   display: block;
-  width: 100%;
-  max-width: 800px;
+  max-width: 280px;
 }
 
-.beerGlass {
+
+.lager img {
   align-items: center;
-  padding: 10px;
+  float: left;
+  background: white;
+  padding-top: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-bottom: 0px
   margin: 0 auto;
   display: block;
+  max-height: 340px;
 }
 
-.lagerInfo, .palealeInfo, .stoutInfo {
+.hideLager {
+  visibility: visible;
+}
+
+.paleale img {
   align-items: center;
-  background: grey;
-  padding: 10px 20px;
-  border: 1px solid black;
-  border-radius: 3px;
-  text-decoration: none;
-  font-family: Helvetica, sans-serif;
+  float: left;
+  background: white;
+  padding-top: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-bottom: 0px
+  margin: 0 auto;
+  display: block;
+  max-height: 340px;
+}
+
+.hidePaleale {
+  visibility: hidden;
+}
+
+.stout img {
+  align-items: center;
+  float: left;
+  background: white;
+  padding-top: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-bottom: 0px
+  margin: 0 auto;
+  display: block;
+  max-height: 340px;
+}
+
+.hideStout {
+  visibility: hidden;
+}
+
+.activeLager, .activePaleale, .activeStout {
+  
 }
 
 
