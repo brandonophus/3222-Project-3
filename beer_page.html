@@ -25,14 +25,17 @@
          <a href="index.html" class="brandhome"><img src="img/BrewLab_logo.png" width="73.75px" height="68px"></a>
           <section class="beers" id="beerPage">
             <h1 class="header">Current Beer List</h1>
-            <a href="#" class="btnLager" id="beerPage">Lager</a>
-            <a href="#" class="btnPaleAle" id="beerPage">Pale Ale</a>
-            <a href="#" class="btnStout" id="beerPage">Stout</a>
+            <a class="beerBTN" id="Lager" onclick="changeBeer('Lager')">Lager</a>
+            <a class="beerBTN" id="Paleale" onclick="changeBeer('Paleale')">Pale Ale</a>
+            <a class="beerBTN" id="Stout" onclick="changeBeer('Stout')">Stout</a>
           </section>
-          <section class="emptyGlass" id="beerPage"><img src="img/emptyGlass.png" width="228px" height="320px"></section>
-            <section class="lager hideLager activeLager" id="beerPage"><img src="img/lager.png" width="500px" height="340px"></section>
-            <section class="lager hidePaleale activePaleale" id="beerPage"><img src="img/paleale.png" width="500px" height="340px"></section>
-            <section class="lager hideStout activeStout" id="beerPage"><img src="img/stout.png" width="500px" height="340px"></section>
+          <section class="glass emptyGlass" id="beerPage"><img src="img/emptyGlass.png" width="228px" height="320px"></section>
+          <section class="glass liquid" id="beerLager"><img src="img/lagerLiq.png" width="216px" height="310px"></section>
+          <section class="glass liquid" id="beerPaleale"><img src="img/paleLiq.png" width="216px" height="310px"></section>
+          <section class="glass liquid" id="beerStout"><img src="img/stoutLiq.png" width="216px" height="310px"></section>
+            <section class="card lager active" id="Lager" onclick="changeBeer('img/lager.png')"><img src="img/lager.png" width="500px" height="340px"></section>
+            <section class="card paleale" id="Paleale" onclick="changeBeer('img/paleale.png')"><img src="img/paleale.png" width="500px" height="340px"></section>
+            <section class="card stout" id="Stout" onclick="changeBeer('img/stout.png')"><img src="img/stout.png" width="500px" height="340px"></section>
           </section>
         <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
         <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.2.min.js"><\/script>')</script>

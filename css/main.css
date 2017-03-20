@@ -151,7 +151,7 @@ h2 {
   max-width: 500px;
 }
 
-.btnLager, .btnPaleAle, .btnStout {
+.beerBTN {
   background: white;
   align-items: center;
   padding: 10px 20px;
@@ -163,7 +163,13 @@ h2 {
 }
 
 .emptyGlass {
-  float: left;
+    z-index: 100;
+}
+
+.glass {
+  position: absolute;
+  bottom: 198px;
+  left: 0;
   padding-top: 15px;
   padding-left: 100px;
   padding-right: 10px;
@@ -173,6 +179,28 @@ h2 {
   max-width: 280px;
 }
 
+.liquid {
+  transform: scaleY(0);
+  transform-origin: bottom;
+  transition: all 1s ease-in-out;
+}
+
+.liquid.active {
+  transform: scaleY(1);
+
+}
+
+.card {
+  position: absolute;
+  top: 235px;
+  left: 350px;
+  opacity: 0;
+  transition: all 1s ease-in-out;
+}
+
+.card.active {
+  opacity: 1;
+}
 
 .lager img {
   align-items: center;
@@ -226,7 +254,7 @@ h2 {
 }
 
 .activeLager, .activePaleale, .activeStout {
-  
+
 }
 
 
