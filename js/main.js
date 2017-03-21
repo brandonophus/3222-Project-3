@@ -1,7 +1,3 @@
-$('#buttonStart').click( function() {
-  $('#startScreen').fadeout();
-});
-
 $(document).ready( function(){
   $('#beerLager').addClass('active');
 });
