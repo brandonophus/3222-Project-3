@@ -88,31 +88,37 @@ body {
 h1 {
   font-family: 'Lobster', cursive;
   text-align: center;
-  font-size: 48px;
+  font-size: 40px;
   color: white;
   margin-top: auto;
+  margin-bottom: 0;
 }
 
 h2 {
-  font-family: 'Lobster', cursive;
+  font-family: Helvetica, sans-serif;
   text-align: center;
-  font-size: 48px;
+  font-size: 20px;
   color: white;
   margin-top: auto;
+  margin-bottom: 5px;
 }
 
 .header {
   font-family: 'Lobster', cursive;
   text-align: center;
-  font-size: 48px;
+  font-size: 40px;
   color: white;
+  margin-top: auto;
+  margin-bottom: 5px;
 }
 
 .subhead {
-  font-family: 'Lobster', cursive;
+  font-family: Helvetica, sans-serif;
   text-align: center;
-  font-size: 28px;
+  font-size: 20px;
   color: white;
+  margin-top: auto;
+  margin-bottom: 10px;
 }
 
 .start-section {
@@ -251,10 +257,6 @@ h2 {
 
 .hideStout {
   visibility: hidden;
-}
-
-.activeLager, .activePaleale, .activeStout {
-
 }
 
 
